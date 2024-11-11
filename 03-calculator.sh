@@ -28,3 +28,16 @@ echo "Addition: $add1"
 echo "Subtraction: $sub1"
 echo "Multiplication: $multiply1"
 echo "Division: $divides1"
+
+
+# Perform arithmetic operations using awk
+add=$(awk "BEGIN {print $num1 + $num2}")
+sub=$(awk "BEGIN {print $num1 - $num2}")
+multiply=$(awk "BEGIN {print $num1 * $num2}")
+divides=$(awk "BEGIN {print $num1 / $num2}")
+
+# Output the results
+echo "Addition: $add"
+echo "Subtraction: $sub"
+echo "Multiplication: $multiply"
+echo "Division: $divides"
