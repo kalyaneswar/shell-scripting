@@ -6,10 +6,10 @@
 num1=$1
 num=$2
 
-add=$num1+$num2
-sub=$num1-$num2
-multiply=$num1*$num2
-divides=$num1/$num2
+add=($num1+$num2)
+sub=($num1-$num2)
+multiply=($num1*$num2)
+divides=$(num1/num2)
 
 echo "addition: $add"
 echo "Subtraction: $sub"
