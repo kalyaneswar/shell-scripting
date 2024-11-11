@@ -4,7 +4,8 @@
 #    - Write a script that asks for two numbers and then adds, subtracts, multiplies, and divides them.
 
 num1=$1
-num=$2
+num2=$2
+
 
 add=$($num1+$num2)
 sub=$($num1-$num2)
