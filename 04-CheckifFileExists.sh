@@ -27,3 +27,7 @@ if [ -e "$path" ]; then
 else
     echo "$path does not exist."
 fi
+
+# -e "$path": Checks if the file or directory exists at the given path.
+# -f "$path": Checks if the given path is a regular file.
+# -d "$path": Checks if the given path is a directory.
