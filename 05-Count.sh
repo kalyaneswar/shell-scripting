@@ -11,7 +11,7 @@ if [ -e "$file" ]; then
     # Check if it's a regular file
     if [ -f "$file" ]; then
         # Count the number of lines in the file
-        line_count=$("$file" > wc -l )
+        line_count=$(wc -l < "$file")
         echo "The file '$file' contains $line_count lines."
     else
         echo "$file is not a regular file."
