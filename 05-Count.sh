@@ -7,4 +7,5 @@ filename=$1
 
 cd $path
 pwd
-echo "wc -l $filename"
+line_count=$(wc -l $filename)
+echo "$line_count"
