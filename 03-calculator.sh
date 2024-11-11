@@ -18,13 +18,13 @@ echo "Multiplication: $multiply"
 echo "Division: $divides"
 
 # Perform arithmetic operations (use bc for floating-point)
-add=$(echo "$num1 + $num2" | bc)
-sub=$(echo "$num1 - $num2" | bc)
-multiply=$(echo "$num1 * $num2" | bc)
-divides=$(echo "scale=2; $num1 / $num2" | bc)  # scale=2 sets precision to 2 decimal places
+add1=$(echo "$num1 + $num2" | bc)
+sub1=$(echo "$num1 - $num2" | bc)
+multiply1=$(echo "$num1 * $num2" | bc)
+divides1=$(echo "scale=2; $num1 / $num2" | bc)  # scale=2 sets precision to 2 decimal places
 
 # Output the results
-echo "Addition: $add"
-echo "Subtraction: $sub"
-echo "Multiplication: $multiply"
-echo "Division: $divides"
+echo "Addition: $add1"
+echo "Subtraction: $sub1"
+echo "Multiplication: $multiply1"
+echo "Division: $divides1"
