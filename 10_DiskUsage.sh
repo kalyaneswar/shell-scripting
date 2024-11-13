@@ -5,10 +5,10 @@
 
 df -h
 
-disk_usage=$(df / | grep / | awk '{ print $6 }')
+disk_usage=$(df / | grep / | awk '{ print $6 }' | sed 's/%//g')
 
-if [ $disk_usage > 80% ]; then
-    echo "disk usage is Over a certain threshold"
+if [ $disk_usage > 80 ]; then
+    echo "disk usage is Over  threshold"
 else
-    echo "disk usage is Under a certain threshold"
+    echo "disk usage is Under threshold"
 fi
