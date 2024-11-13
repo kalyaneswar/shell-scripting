@@ -1,0 +1,171 @@
+That's a great initiative! Practicing shell scripting will significantly boost your proficiency in system administration, automation, and understanding the inner workings of a Linux or Unix system. Below is a curated list of **50 shell scripting exercises** ranging from beginner to intermediate level. These exercises will help you gradually build your skills and confidence in shell scripting.
+
+### Beginner Level (1–10)
+
+1. **Hello World Script**
+   - Write a basic script that prints "Hello, World!" to the terminal.
+
+2. **Variables and User Input**
+   - Create a script that takes the user's name as input and prints "Hello, [name]!".
+
+3. **Simple Calculator**
+   - Write a script that asks for two numbers and then adds, subtracts, multiplies, and divides them.
+
+4. **Check if File Exists**
+   - Write a script that checks if a file or directory exists, and prints a message accordingly.
+
+5. **Count Lines in a File**
+   - Write a script that counts and prints the number of lines in a given text file.
+
+6. **Check if a Number is Even or Odd**
+   - Write a script that checks if a number entered by the user is even or odd.
+
+7. **Directory Listing**
+   - Write a script that lists all files in the current directory and shows whether they are files or directories.
+
+8. **Print All Environment Variables**
+   - Write a script that prints all environment variables to the terminal.
+
+9. **Display Current Date and Time**
+   - Write a script that shows the current system date and time in a human-readable format.
+
+10. **Check Disk Usage**
+    - Write a script that checks the disk usage of the system and reports if the disk usage is over a certain threshold.
+
+---
+
+### Intermediate Level (11–30)
+
+11. **Basic For Loop**
+    - Write a script that prints numbers 1 to 10 using a `for` loop.
+
+12. **Print Files in a Directory**
+    - Write a script that prints the names of all files in the current directory using a `for` loop.
+
+13. **Find Largest File in a Directory**
+    - Write a script to find and display the largest file in a given directory.
+
+14. **Copy Files with Error Handling**
+    - Write a script that copies files from one directory to another and checks for errors in the process.
+
+15. **Rename Files in a Directory**
+    - Write a script to rename files in a directory by appending the current date.
+
+16. **Search for a String in Files**
+    - Write a script that searches for a specific string within files in a directory and outputs the file names where the string is found.
+
+17. **Count Word Occurrences**
+    - Write a script that counts how many times a word appears in a given file.
+
+18. **Backup a Directory**
+    - Write a script that backs up a directory by compressing it into a `.tar` file.
+
+19. **Remove Files Older Than X Days**
+    - Write a script to find and delete files in a directory that are older than a certain number of days.
+
+20. **Check System Uptime**
+    - Write a script that checks and displays the system’s uptime.
+
+21. **Check Running Processes**
+    - Write a script that lists all the running processes on the system and displays information about them.
+
+22. **Disk Space Alert**
+    - Write a script that checks disk space usage and sends an alert if it exceeds a defined threshold.
+
+23. **System Health Check**
+    - Write a script that checks the health of the system by reporting on CPU, memory, and disk usage.
+
+24. **User Login Information**
+    - Write a script that checks which users are logged into the system.
+
+25. **Create a User with a Password**
+    - Write a script that creates a new user and sets a password for that user.
+
+26. **Generate Random Password**
+    - Write a script that generates a random password of a specified length.
+
+27. **Search for a Process by Name**
+    - Write a script that searches for a running process by name and displays its process ID (PID).
+
+28. **Send Email from Shell Script**
+    - Write a script that sends an email using a command-line email tool like `mail` or `sendmail`.
+
+29. **Check Network Connectivity**
+    - Write a script that checks if a remote server is reachable using `ping` or `nc`.
+
+30. **Create a Log File with Timestamps**
+    - Write a script that appends messages to a log file with a timestamp.
+
+---
+
+### Intermediate to Advanced Level (31–50)
+
+31. **Check for Running Service**
+    - Write a script that checks whether a specific service (e.g., Apache, MySQL) is running on the system.
+
+32. **Monitor CPU Usage**
+    - Write a script that monitors the system's CPU usage and sends an alert if it exceeds a certain percentage.
+
+33. **Create a Directory Tree**
+    - Write a script that creates a directory tree structure (e.g., `./dir/subdir1/subdir2`).
+
+34. **Find and Delete Empty Files**
+    - Write a script that finds and deletes all empty files in a specified directory.
+
+35. **Create a Cron Job**
+    - Write a script to create a cron job that runs a specific task at regular intervals.
+
+36. **Parse Log Files**
+    - Write a script that parses a log file (e.g., `/var/log/syslog`) and outputs all errors.
+
+37. **Find Files by Extension**
+    - Write a script that finds and lists all files with a specific extension (e.g., `.txt`, `.jpg`) in a directory.
+
+38. **Track IP Addresses**
+    - Write a script that logs the IP addresses accessing a server by parsing log files.
+
+39. **Create a Disk Usage Report**
+    - Write a script that generates a disk usage report, summarizing usage per directory.
+
+40. **Monitor System Load**
+    - Write a script that checks the system load every minute and outputs if it’s above a certain threshold.
+
+41. **Compress Old Logs**
+    - Write a script that compresses logs older than 30 days into `.tar.gz` files.
+
+42. **Change File Permissions Recursively**
+    - Write a script that changes file permissions recursively in a directory.
+
+43. **Backup MySQL Database**
+    - Write a script that backs up a MySQL database into a `.sql` file.
+
+44. **Monitor File Changes**
+    - Write a script that uses `inotifywait` to monitor changes in a directory (e.g., creation, modification, deletion of files).
+
+45. **Download Files via HTTP**
+    - Write a script that downloads a file from the web using `wget` or `curl`.
+
+46. **Parse CSV File**
+    - Write a script that reads and processes a CSV file, printing each row's data.
+
+47. **Generate a System Report**
+    - Write a script that generates a comprehensive system report, including CPU, memory, disk usage, and running processes.
+
+48. **File Integrity Check**
+    - Write a script that checks if files in a directory have changed by comparing their checksums (`md5sum` or `sha256sum`).
+
+49. **Create a Tar Archive with Exclusions**
+    - Write a script that creates a tar archive of a directory but excludes certain files or directories.
+
+50. **Monitor Logins and Alerts**
+    - Write a script that monitors login attempts on the system and alerts the administrator in case of a failed login or suspicious activity.
+
+---
+
+### Tips for Practicing Shell Scripting:
+- **Test Regularly**: As you write your scripts, make sure to test them to verify that they work as expected.
+- **Use Version Control**: Use Git to manage your scripts. This will allow you to keep track of changes and revert back if something goes wrong.
+- **Use Manual Pages**: Learn to use `man` pages (`man <command>`) to understand the options and flags available for commands you use in your scripts.
+- **Keep it Simple**: Don't try to make overly complex scripts at the beginning. Focus on breaking down tasks into smaller chunks.
+  
+By practicing these scripts, you'll become more comfortable with shell scripting and be well on your way to mastering it!
