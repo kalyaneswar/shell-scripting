@@ -10,7 +10,7 @@
 
 # Check if a path is provided as an argument, else use the default path
 path=${1:-/c/Users/kalya/OneDrive/Desktop/DevOps/repos/shell-scripting/}  # Replace '/c/Users/kalya/OneDrive/Desktop/DevOps/repos/shell-scripting/' with your desired default path
-cd $1
+cd $path
 ls -lrt
 
 # Loop through each item in the current director
